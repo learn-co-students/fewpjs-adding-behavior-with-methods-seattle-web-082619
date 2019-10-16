@@ -5,7 +5,7 @@ describe("cat", () => {
     cat = new Cat("Sasha", "female")
   })
 
-  it("has a class of cat", () => {
+  it("has a class of Cat", () => {
     expect(new Cat()).to.be.an.instanceof(Cat);
   })
   it("cat.speak() returns '[name]' says meow!", () => {
@@ -17,7 +17,7 @@ describe("dog", () => {
     dog = new Dog("Rufio", "male")
   })
 
-  it("has a class of dog", () => {
+  it("has a class of Dog", () => {
     expect(new Dog()).to.be.an.instanceof(Dog);
   })
   it("dog.speak() returns '[name] says woof!'", () => {
